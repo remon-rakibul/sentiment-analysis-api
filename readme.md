@@ -6,7 +6,7 @@ It was build with [Django-Rest-Framework](https://www.django-rest-framework.org/
 
 <img src="https://raw.githubusercontent.com/huggingface/setfit/main/assets/setfit.png">
 <p align="center">
-    source <a href="https://huggingface.co/setfit" target="_blank">
+    source: [https://huggingface.co/setfit](https://huggingface.co/setfitt)
 </p>
 
 
