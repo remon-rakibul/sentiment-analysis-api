@@ -2,9 +2,19 @@
 # Sentiment Analysis API
 
 This is a API for predicting sentiment analysis of texts.
-It was build with [Django-Rest-Framework](https://www.django-rest-framework.org/) and is based on Natural Language Processing. It uses pre-trained NLP model from [here](https://huggingface.co/StatsGary/setfit-ft-sentinent-eval) for text analysis.
+It was build with [Django-Rest-Framework](https://www.django-rest-framework.org/) and is based on Natural Language Processing. It uses pre-trained [SetFit model](https://huggingface.co/StatsGary/setfit-ft-sentinent-eval) for sentiment analysis.
 
-## Get Started
+<img src="https://raw.githubusercontent.com/huggingface/setfit/main/assets/setfit.png">
+
+# StatsGary/setfit-ft-sentinent-eval
+
+This is a [SetFit model](https://github.com/huggingface/setfit) that can be used for text classification. The model has been trained using an efficient few-shot learning technique that involves:
+
+1. Fine-tuning a [Sentence Transformer](https://www.sbert.net) with contrastive learning.
+2. Training a classification head with features from the fine-tuned Sentence Transformer.
+
+
+## Get Started With Sentiment Analysis API
 > Use a virtual env
 * Clone repo : ```$ git clone https://github.com/remon-rakibul/sentiment-analysis-api```
 * ```$ cd sentiment-analysis-api```
@@ -36,3 +46,11 @@ $ python manage.py runserver
   Takes a sentence through POST request and runs sentiment analysis model to predict sentiment. 
 
   The input text should be inside a "text" key in JSON format.
+
+## Postman API Collection
+
+  Get postman collection for this project.
+
+  [Sentiment Model API](https://github.com/remon-rakibul/sentiment-analysis-api/blob/main/Sentiment-Model-API.postman_collection.json)
+
+  ![alt postman screenshot](https://github.com/remon-rakibul/sentiment-analysis-api/blob/main/example/collection.png?raw=true)
