@@ -5,6 +5,10 @@ This is a API for predicting sentiment analysis of texts.
 It was build with [Django-Rest-Framework](https://www.django-rest-framework.org/) and is based on Natural Language Processing. It uses pre-trained [SetFit model](https://huggingface.co/StatsGary/setfit-ft-sentinent-eval) for sentiment analysis.
 
 <img src="https://raw.githubusercontent.com/huggingface/setfit/main/assets/setfit.png">
+<p align="center">
+    source <a href="https://huggingface.co/setfit" target="_blank">
+</p>
+
 
 # StatsGary/setfit-ft-sentinent-eval
 
@@ -33,13 +37,13 @@ $ python manage.py runserver
 
 ## API Endpoints
 
-> http://127.0.0.1:8000/api/v1/health
+> **health**
 
   ![alt postman screenshot](https://github.com/remon-rakibul/sentiment-analysis-api/blob/main/example/health.png?raw=true)
 
   A GET request to make sure everything is working properly. 
 
-> http://127.0.0.1:8000/api/v1/analyze
+> **analyze**
 
   ![alt postman screenshot](https://github.com/remon-rakibul/sentiment-analysis-api/blob/main/example/analyze.png?raw=true)
 
