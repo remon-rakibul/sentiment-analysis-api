@@ -25,13 +25,13 @@ $ python manage.py runserver
 
 > http://127.0.0.1:8000/api/v1/health
 
-  ![alt postman screenshot](https://github.com/[remon-rakibul]/[sentiment-analysis-api]/blob/[main]/example/health.png?raw=true)
+  ![alt postman screenshot](https://github.com/remon-rakibul/sentiment-analysis-api/blob/main/example/health.png?raw=true)
 
   A GET request to make sure everything is working properly. 
 
 > http://127.0.0.1:8000/api/v1/analyze
 
-  ![alt postman screenshot](https://github.com/[remon-rakibul]/[sentiment-analysis-api]/blob/[main]/example/analyze.png?raw=true)
+  ![alt postman screenshot](https://github.com/remon-rakibul/sentiment-analysis-api]/blob/main/example/analyze.png?raw=true)
 
   Takes a sentence through POST request and runs sentiment analysis model to predict sentiment. 
 
